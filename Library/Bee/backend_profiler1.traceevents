@@ -1,0 +1,478 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683367789147054, "dur":997, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367789148057, "dur":44, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683367789148115, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683367789148128, "dur":530, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683367789148691, "dur":543, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367789149234, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794287964, "dur":307, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288271, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288282, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288283, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288292, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288293, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288298, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288300, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288305, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288306, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288310, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288312, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288317, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288318, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288322, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288323, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288327, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288329, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288333, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288335, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288341, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288343, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288347, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288349, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288354, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288388, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794288414, "dur":1343, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683367789148995, "dur":260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367789149259, "dur":1564, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367789151326, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683367789151329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367789164898, "dur":472, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683367789165379, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683367789165405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367789183133, "dur":11752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683367789194891, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683367789194942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367789203370, "dur":186298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683367789389939, "dur":488795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683367789878741, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367789878755, "dur":5374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683367789884172, "dur":40533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367789924716, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367789924737, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367789926082, "dur":28757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367789954845, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367789954855, "dur":59157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367790014029, "dur":92059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367790106102, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367790106120, "dur":12782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367790118922, "dur":34819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367790153749, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367790153762, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367790155006, "dur":1338493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367791493504, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683367791493512, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683367791495141, "dur":2792742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367789149123, "dur":156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367789149279, "dur":1566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367789151217, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683367789151348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367789183217, "dur":245240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1683367789428479, "dur":70961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367789499443, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367789499451, "dur":16111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367789515585, "dur":41313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367789556965, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367789556979, "dur":5638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367789562635, "dur":59989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367789622637, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367789622698, "dur":164969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367789787689, "dur":53335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367789841036, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367789841054, "dur":37175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367789878263, "dur":67827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367789946099, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367789946109, "dur":66734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367790012870, "dur":130672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367790143549, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367790143558, "dur":8787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367790152366, "dur":63631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367790216010, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367790216029, "dur":4172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367790220225, "dur":2806837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367793027069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683367793027078, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683367793029751, "dur":1258286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789149070, "dur":197, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789149267, "dur":1578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789151217, "dur":58812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683367789210037, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789210089, "dur":29323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683367789239436, "dur":38416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683367789277858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789277867, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1683367789278515, "dur":185854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367789464376, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789464642, "dur":16753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367789481414, "dur":142447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367789623876, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789623900, "dur":164946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367789788895, "dur":47094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367789835996, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789836005, "dur":38232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367789874277, "dur":32908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367789907199, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789907217, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367789908703, "dur":54436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367789963173, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367789963186, "dur":50330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367790013534, "dur":32142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367790045688, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367790045708, "dur":8211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367790053935, "dur":1067776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367791121726, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367791121740, "dur":97145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683367791218912, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1683367791218948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683367791218959, "dur":4490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1683367791223463, "dur":3064428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683367789149177, "dur":116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683367789149293, "dur":1551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683367789151225, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683367789151315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683367789202302, "dur":188410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1683367789390732, "dur":79795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies.exe" }}
+,{ "pid":12345, "tid":4, "ts":1683367789470534, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683367789470542, "dur":9116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies.exe" }}
+,{ "pid":12345, "tid":4, "ts":1683367789479682, "dur":86808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683367789566499, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683367789566514, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683367789567921, "dur":1031561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683367790599489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683367790599497, "dur":297275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683367790896788, "dur":259350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683367791156144, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683367791156153, "dur":63340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683367791219509, "dur":3068396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789149228, "dur":76, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789149304, "dur":1526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789151264, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1683367789151383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789183359, "dur":231026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1683367789415213, "dur":104714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789519936, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789519951, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789521103, "dur":35329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789556454, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789556471, "dur":5458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789561950, "dur":48749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789610712, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789610826, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789612365, "dur":42120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789654495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789654504, "dur":133935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789788458, "dur":30866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789819332, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789819343, "dur":55566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789874970, "dur":34447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789909427, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789909440, "dur":7329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789916826, "dur":40660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367789957497, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367789957507, "dur":55662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790013184, "dur":37264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790050456, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367790050467, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790053937, "dur":32532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790086480, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367790086494, "dur":8597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790095110, "dur":48346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790143466, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367790143485, "dur":8396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790151908, "dur":100371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790252285, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367790252294, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790254187, "dur":162387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790416621, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367790416630, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790418161, "dur":38204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790456379, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367790456394, "dur":438076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367790894483, "dur":3389497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367794283986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683367794283994, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683367794287811, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1683367794287815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789149289, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789149289, "dur":1554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789151218, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1683367789151310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789183340, "dur":245750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1683367789429147, "dur":69740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789498896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789498907, "dur":9211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789508145, "dur":38470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789546624, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789546637, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789549980, "dur":32243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789582234, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789582246, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789585863, "dur":32474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789618348, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789618364, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789620005, "dur":89382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789709392, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789709399, "dur":80928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789790392, "dur":32836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789823260, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789823269, "dur":51810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789875111, "dur":33928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789909046, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789909059, "dur":7166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789916248, "dur":41241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367789957497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367789957507, "dur":55924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790013451, "dur":30422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790043883, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367790043899, "dur":9555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790053475, "dur":35551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790089039, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367790089056, "dur":6444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790095511, "dur":143544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790239063, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367790239075, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790240079, "dur":106211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790346302, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367790346315, "dur":4357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790350689, "dur":42127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790392823, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367790392833, "dur":7701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367790400554, "dur":1995311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367792395871, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683367792395880, "dur":498362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683367792894256, "dur":1393600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789149350, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789149350, "dur":1481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789151256, "dur":106926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683367789258187, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789258196, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1683367789258860, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1683367789258883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789258886, "dur":133106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1683367789392011, "dur":112064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367789504086, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789504135, "dur":8067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367789512224, "dur":33462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367789545707, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789545733, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367789547771, "dur":94391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367789642170, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789642179, "dur":147562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367789789775, "dur":47989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367789837774, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789837788, "dur":39348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367789877159, "dur":64350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367789941516, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367789941528, "dur":76444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790017996, "dur":56192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790074201, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367790074218, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790076070, "dur":61454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790137537, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367790137554, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790139030, "dur":101208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790240244, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367790240256, "dur":5112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790245386, "dur":180429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790425822, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367790425832, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790426851, "dur":114012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790540870, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367790540881, "dur":353548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790894445, "dur":67062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790961513, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367790961523, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367790962567, "dur":98336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367791060912, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367791060923, "dur":15425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683367791076363, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683367791076380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367791076386, "dur":122387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683367791198996, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683367791199102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367791199115, "dur":12127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1683367791211291, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1683367791211329, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367791211348, "dur":6235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1683367791217613, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683367791217633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683367791217641, "dur":5334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1683367791222989, "dur":3064909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683367789149409, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683367789149409, "dur":1418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683367789151255, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683367789151327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683367789183787, "dur":205272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1683367789389108, "dur":4167354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683367793556468, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683367793556475, "dur":517738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683367794074231, "dur":213736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789149476, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789149476, "dur":1384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789151217, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1683367789151308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789184039, "dur":208318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1683367789392452, "dur":76635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789469095, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789469144, "dur":10572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789479734, "dur":41184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789520927, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789520938, "dur":5200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789526164, "dur":84540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789610712, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789610726, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789612472, "dur":40494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789652982, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789653000, "dur":135775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789788815, "dur":54653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789843474, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789843483, "dur":31372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789874878, "dur":33017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789907903, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789908601, "dur":7631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789916251, "dur":30883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367789947139, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367789947146, "dur":66315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790013487, "dur":36945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790050442, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367790050461, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790053933, "dur":32536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790086481, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367790086494, "dur":8620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790095133, "dur":30408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790125553, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367790125575, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790126723, "dur":48976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790175706, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367790175716, "dur":6402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790182136, "dur":97550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790279726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367790279736, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790280773, "dur":80563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790361347, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367790361363, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790362515, "dur":37397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790399921, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367790399936, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367790401198, "dur":2605625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367793006830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683367793006838, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683367793009090, "dur":1278765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683367789149534, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683367789149535, "dur":1293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683367789151266, "dur":41772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683367789193049, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683367789202129, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683367789203406, "dur":54485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683367789257896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683367789257904, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683367789258567, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1683367789258606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683367789258612, "dur":130244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1683367789388877, "dur":1760250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683367791149133, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683367791149169, "dur":69766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683367791218970, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1683367791219131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683367791219149, "dur":4589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1683367791223751, "dur":3064139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789149595, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789149596, "dur":1230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789151261, "dur":67131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683367789218402, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789218942, "dur":20462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683367789239438, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1683367789239503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789239578, "dur":152601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1683367789392192, "dur":58720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789450928, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789451946, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789453332, "dur":37706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789491047, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789491057, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789492298, "dur":45158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789537464, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789537476, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789538742, "dur":39044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789577793, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789577803, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789578509, "dur":129153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789707670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789707679, "dur":82672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789790388, "dur":28922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789819321, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789819341, "dur":54888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789874294, "dur":63245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367789937553, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367789937568, "dur":74434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790012078, "dur":50866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790062956, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367790062977, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790064613, "dur":38470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790103096, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367790103119, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790104617, "dur":46254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790150881, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367790150897, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790152623, "dur":70848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790223482, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367790223497, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790224631, "dur":57926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790282563, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367790282573, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790283647, "dur":92336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790375988, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367790375997, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790376947, "dur":159295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790536247, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367790536255, "dur":357347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367790893880, "dur":161497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367791055387, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367791055430, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683367791056737, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1683367791056752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367791056776, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1683367791058436, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1683367791058458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367791058466, "dur":17759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1683367791076247, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1683367791076277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683367791076286, "dur":146999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1683367791223299, "dur":3064597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367789149647, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367789149647, "dur":1199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367789151225, "dur":28969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1683367789180200, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367789183405, "dur":20144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1683367789203565, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1683367789203635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367789203657, "dur":187609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1683367789391285, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1683367789391612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367789393894, "dur":621492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1683367790015419, "dur":40001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790055431, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367790055447, "dur":8859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790064337, "dur":28970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790093315, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367790093329, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790095202, "dur":56138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790151348, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367790151438, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790152829, "dur":204281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790357117, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367790357128, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790358670, "dur":93623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790452302, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367790452319, "dur":439783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367790892124, "dur":177901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367791070030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367791070040, "dur":7426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683367791077488, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1683367791077673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367791077681, "dur":120357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1683367791198071, "dur":23714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/mygame/FPSZombies_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1683367791221795, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683367791221810, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/mygame/FPSZombies_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1683367791224172, "dur":3063712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683367794291790, "dur":2780, "ph":"X", "name": "ProfilerWriteOutput" }
+,
